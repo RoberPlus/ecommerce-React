@@ -3,6 +3,8 @@ import Home from '../components/pages/Home';
 import Error404 from '../components/pages/Error404';
 import Products from '../components/pages/Products';
 import PublicPages from '../templates/PublicPages';
+import Login from '../components/pages/Login';
+import SignUp from '../components/pages/SignUp';
 
 // Creamos las rutas de la app
 // path: ruta
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
         element: <Products />,
       },
     ],
+  },
+  {
+    path: '/login',
+    element: <Login />,
+  },
+  {
+    path: '/sign-up',
+    element: <SignUp />,
   },
 ]);
 
