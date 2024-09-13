@@ -26,9 +26,9 @@ function LoginTemplate({ children, title }) {
                 <div className="bg-gradient lg:w-6/12 flex items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none">
                   <div className="text-white px-2 mx-6 my-16 md:px-12 md:mx-6">
                     <span className="text-xl font-semibold mb-6">
-                      Más que un e-commerce...
+                      More than a Ecommerce...
                     </span>
-                    <h4 className="text-4xl">somos una tienda en línea</h4>
+                    <h4 className="text-4xl">We are huge</h4>
                   </div>
                 </div>
               </div>

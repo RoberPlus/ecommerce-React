@@ -32,31 +32,26 @@ function Login() {
   };
 
   return (
-    <LoginTemplate title={'Iniciar Sesion'}>
+    <LoginTemplate title={'Log In'}>
       <div className="pt-16 max-w-256 m-auto">
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <input
-              type="email"
-              placeholder="Correo electrónico"
-              name="email"
-              required
-            />
+            <input type="email" placeholder="Email" name="email" required />
           </div>
           <div className="mb-4">
             <input
               type="password"
-              placeholder="Contraseña"
+              placeholder="Password"
               name="password"
               required
             />
           </div>
           <div className="text-center pt-1 mb-12 pb-1">
             <button className="bg-gradient w-full" type="submit">
-              Ingresar
+              Log In
             </button>
             <Link className="text-gray-500" to="/sign-up">
-              ¿Deseas registrarte?
+              Sign Up
             </Link>
           </div>
           {error && (
